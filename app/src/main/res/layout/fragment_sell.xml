@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".Fregments.sell">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Add Car Image:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cimv"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:src="@drawable/car"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Company:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+
+            <EditText
+                android:id="@+id/editTextcar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_baseline_directions_car_focus"
+                android:drawableLeft="@drawable/ic_baseline_directions_car_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Car Company"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Model:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextmodel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_mdel_focus"
+                android:drawableLeft="@drawable/ic_mdel_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Model"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Variant:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextvar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_electric_focus"
+                android:drawableLeft="@drawable/ic_electric_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Variant"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Year:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextcaryear"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_year_focus"
+                android:drawableLeft="@drawable/ic_year_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Car Year"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Color:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextcolor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_color_focus"
+                android:drawableLeft="@drawable/ic_color_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Color"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Km Driven:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextkmdriven"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_km_focus"
+                android:drawableLeft="@drawable/ic_km_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Km Driven"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Owner:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextowner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_owner_focus"
+                android:drawableLeft="@drawable/ic_owner_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Owner"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="State:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextstate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_state_focus"
+                android:drawableLeft="@drawable/ic_state_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="State"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="City:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextcity"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_state_focus"
+                android:drawableLeft="@drawable/ic_state_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+
+                android:hint="City"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Price:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextprice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_price_focus"
+                android:drawableLeft="@drawable/ic_price_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="price"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Description:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextTex"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_des_focus"
+                android:drawableLeft="@drawable/ic_des_focus"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Description"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="RC No:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextRc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_list_numbered"
+                android:drawableLeft="@drawable/ic_list_numbered"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Rc No"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Licence No:"
+                android:textColor="#000"
+                android:textSize="15dp"></TextView>
+
+            <EditText
+                android:id="@+id/editTextLic"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edit"
+                android:drawableStart="@drawable/ic_format_list_numbered"
+                android:drawableLeft="@drawable/ic_format_list_numbered"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Licence No"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/custom_button"
+                android:gravity="center"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

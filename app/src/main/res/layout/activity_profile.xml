@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_blur"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#035056"-->
+    <!--        >-->
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="#fff"-->
+
+    <!--            android:text="Profile"/>-->
+    <!--    </androidx.appcompat.widget.Toolbar>-->
+    <!-- TODO: Update blank fragment layout -->
+    <!--scroll view code-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--profile image-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/mahindra"
+                        android:scaleType="center"
+                        tools:ignore="ContentDescription"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#4D000000" />
+                <LinearLayout
+
+                    android:layout_marginTop="120dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+                    <!--                        android:id="@+id/userProfile"-->
+                    <!--                        android:layout_gravity="center"-->
+                    <!--                        android:layout_marginTop="10dp"-->
+                    <!--                        android:scaleType="centerCrop"-->
+                    <!--                        android:src="@drawable/homeicon"-->
+                    <!--                        app:civ_border_color="@color/colorPrimary"-->
+                    <!--                        app:civ_border_width="4dp"-->
+                    <!--                        android:layout_width="120dp"-->
+                    <!--                        android:layout_height="120dp"/>-->
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/userProfile"
+                        android:layout_width="90dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="33dp"
+                        android:src="@drawable/honda" />
+
+                    <ImageView
+                        android:id="@+id/image_camera"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="130dp"
+                        android:layout_marginTop="-30dp"
+                        android:src="@drawable/ic_camera_black_24dp" />
+                    <ImageView
+                        android:id="@+id/image_upload"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:visibility="gone"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="-35dp"
+                        android:src="@drawable/ic_file_upload_black_24dp" />
+                    <TextView
+                        android:id="@+id/tv_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="User"
+                        android:textSize="30dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/rental"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/border_img"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginEnd="20dp"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/ic_account_box_black_24dp" />
+
+                            <EditText
+                                android:id="@+id/Pro_uname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@android:color/transparent"
+                                android:focusable="false"
+                                android:hint="Abc@"
+                                android:textColor="@color/rental"
+                                android:textColorHint="@color/rental"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/ic_email_black_24dp" />
+
+                            <EditText
+                                android:id="@+id/pro_uemail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@android:color/transparent"
+                                android:focusable="false"
+                                android:text="Abc@gmal.com"
+                                android:textColor="@color/rental"
+                                android:textColorHint="@color/rental"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/ic_lock_black_24dp" />
+
+                            <EditText
+                                android:id="@+id/pro_upwd"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@android:color/transparent"
+                                android:focusable="false"
+                                android:text="Abc@gmal.com"
+                                android:textColor="@color/rental"
+                                android:textColorHint="@color/rental"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+                    <Button
+                        android:id="@+id/btn_save"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_border"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/rental"
+                        android:visibility="visible"
+                        android:text="save"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image_edit"
+                    android:layout_width="40dp"
+                    android:layout_height="31dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="320dp"
+                    android:src="@drawable/ic_mode_edit_black_24dp"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
