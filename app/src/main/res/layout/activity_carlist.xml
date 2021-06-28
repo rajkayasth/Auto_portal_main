@@ -10,6 +10,12 @@
     <Textview
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"></EditText>
         
 </androidx.constraintlayout.widget.ConstraintLayout>
