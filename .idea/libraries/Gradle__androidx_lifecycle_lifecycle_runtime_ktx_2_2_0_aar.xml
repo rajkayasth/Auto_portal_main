@@ -3,11 +3,12 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8740d18034f10483a807e77b6d9619df/lifecycle-runtime-ktx-2.2.0/res" />
       <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/8740d18034f10483a807e77b6d9619df/lifecycle-runtime-ktx-2.2.0/res" />
-      <root url="jar://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/8740d18034f10483a807e77b6d9619df/lifecycle-runtime-ktx-2.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/8740d18034f10483a807e77b6d9619df/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5ef1e35baabd4e6ea2e665d81a487ce/lifecycle-runtime-ktx-2.2.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5ef1e35baabd4e6ea2e665d81a487ce/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5ef1e35baabd4e6ea2e665d81a487ce/lifecycle-runtime-ktx-2.2.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/d5ef1e35baabd4e6ea2e665d81a487ce/lifecycle-runtime-ktx-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/d5ef1e35baabd4e6ea2e665d81a487ce/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/d5ef1e35baabd4e6ea2e665d81a487ce/lifecycle-runtime-ktx-2.2.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

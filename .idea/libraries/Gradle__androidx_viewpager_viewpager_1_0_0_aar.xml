@@ -4,17 +4,17 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/res" />
       <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/291b0dc121fa3d21c4d609cf60748a6c/viewpager-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f4eb8c139b6cb61d3cbb47cf3d0e48f7/viewpager-1.0.0/res" />
-      <root url="jar://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/f4eb8c139b6cb61d3cbb47cf3d0e48f7/viewpager-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/f4eb8c139b6cb61d3cbb47cf3d0e48f7/viewpager-1.0.0/res" />
-      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/f4eb8c139b6cb61d3cbb47cf3d0e48f7/viewpager-1.0.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3143eb2e67ff402117533bdbe39a90ba/viewpager-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3143eb2e67ff402117533bdbe39a90ba/viewpager-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3143eb2e67ff402117533bdbe39a90ba/viewpager-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/3143eb2e67ff402117533bdbe39a90ba/viewpager-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/3143eb2e67ff402117533bdbe39a90ba/viewpager-1.0.0/res" />
+      <root url="jar://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/3143eb2e67ff402117533bdbe39a90ba/viewpager-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/Android/Sdk/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
