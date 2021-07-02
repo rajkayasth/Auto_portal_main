@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -21,7 +22,7 @@ import com.example.raj2.R;
 
 public class SettingsFragmnet extends Fragment {
 
-    TextView pro,logout,my_pro,my_wishlist;
+    CardView pro,logout,my_pro,my_wishlist;
     SharedPreferences prf;
     LinearLayout lc1,lc2;
     Animation topbottom,bottomtop;
