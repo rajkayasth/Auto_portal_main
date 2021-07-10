@@ -3,12 +3,13 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1040c552162d799f11d24aedfd84513b/activity-ktx-1.1.0/res" />
       <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/1040c552162d799f11d24aedfd84513b/activity-ktx-1.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c95a7f2d59158f408ea38b3c9cbcec8b/activity-ktx-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c95a7f2d59158f408ea38b3c9cbcec8b/activity-ktx-1.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c95a7f2d59158f408ea38b3c9cbcec8b/activity-ktx-1.1.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/c95a7f2d59158f408ea38b3c9cbcec8b/activity-ktx-1.1.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/c95a7f2d59158f408ea38b3c9cbcec8b/activity-ktx-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Android/Sdk/caches/transforms-2/files-2.1/c95a7f2d59158f408ea38b3c9cbcec8b/activity-ktx-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dfde7944419f9d6cdb59d0df571a3845/activity-ktx-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dfde7944419f9d6cdb59d0df571a3845/activity-ktx-1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dfde7944419f9d6cdb59d0df571a3845/activity-ktx-1.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
